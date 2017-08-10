@@ -1,2 +1,14 @@
-<!--product.wxml-->
-<text>product.wxml</text>
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="vall">
+  <image style="width: {{imagewidth}}px; height: {{imageheight}}px;margin:0 auto;" bindload="imageLoad" src="../../images/titles/4.jpg" mode="scaleToFill" class="slide-image"></image>
+</view>
+
+<view class="page">
+      <view class="mycontent">
+      <view class="mytitle" style="text-align:left" >主营业务 </view>
+        <view>
+        网络综合布线，安防监控系统，门禁、考勤设备，局域网络搭建，VPN搭建，网络布线方案策划，楼宇监控安装，楼宇网络综合布线系统工程，监控设备安装调试以及维护，电话交换机调试安装，网络综合布线系统设计，专业IT外包，IT外包公司，服务器安装，服务器维护，数据恢复，电脑维修，电脑组装，品牌机销售，笔记本电脑维修，网络设备调试以及安装，微信小程序，微信开发，网站开发等提供多元化服务</view>
+        <view class="classname"></view>
+        <view></view>
+      </view>
+</view>

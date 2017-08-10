@@ -1,2 +1,28 @@
 <!--pages/home/home.wxmll-->
-<view class="page"></view>
+<view class="page">
+<swiper class = "slide-image"  indicator-dots="true"
+    autoplay="true" interval="5000" duration="1000">
+            <swiper-item>
+                <image src="../../images/banner/0.jpg" class="slide-image"/>
+            </swiper-item>
+           <swiper-item>
+                <image src="../../images/banner/1.jpg" class="slide-image"/>
+            </swiper-item>
+          <swiper-item>
+                <image src="../../images/banner/2.jpg" class="slide-image"/>
+            </swiper-item>
+          <swiper-item>
+                <image src="../../images/banner/3.jpg" class="slide-image"/>
+            </swiper-item>
+    </swiper>
+
+      <view class="mycontent">
+      <view class="mytitle" style="text-align:left" >关于我们 </view>
+       <view class="classname"></view>
+        <view>提供24小时上门的金牌服务，多年来我们以优质的服务和良好的口碑迎得了诸多企业客户和家庭客户的信赖！</view>
+        <view class="classname"></view>
+        <view class="mypadding"></view>
+        <view>我们有着丰富的维修经验，我公司拥有行业内最年轻最优秀的IT精英，我们的工程师经验丰富，拥有最少5年的网络维护经验，熟悉业务流程、专业技能扎实。年轻，充满活力，敢于迎接新时代、新技术的挑战，能够不断吸取新知识，学习新技术，以实事求是、认真负责的精神投入到为客户服务的工作中去。我们将会不断进取用最好的技术最简单的方法为您提供最优质、最全面、最快捷、最放心的服务。</view>
+      </view>
+
+</view>

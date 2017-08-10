@@ -1,4 +1,7 @@
-/**app.wxss**/
+@import 'style/weui.wxss';
+@import "wxParse/wxParse.wxss";
+@import "components/wux.wxss";
+
 .container {
   height: 100%;
   display: flex;
@@ -26,4 +29,23 @@ page{
 .page-bd-topimag {
     width: 376px; 
     height:190px;
+}
+.mycontent{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.mytitle{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px;
+}
+.mypadding{
+margin: 25rpx;
+
 }

@@ -1,2 +1,16 @@
-<!--contactus.wxml-->
-<text>contactus.wxml</text>
+<!--aboutus.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="vall">
+  <image style="width: {{imagewidth}}px; height: {{imageheight}}px;margin:0 auto;" bindload="imageLoad" src="{{picPath}}" mode="scaleToFill" class="slide-image"></image>
+</view>
+
+<view class="page">
+      <view class="mycontent">
+        <view>
+            <view class="mytitle">孝昌县日昇电脑 </view>
+            <view> 联系人：李先生 </view>
+            <view> 联系电话:0712-4877898 18986461668 </view>
+            <view> 地址：孝昌县西古城大道（大涵洞往东100米）</view>
+          </view>
+          </view>
+</view>

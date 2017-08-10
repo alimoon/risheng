@@ -25,18 +25,19 @@
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home1.png"
       },
+       {
+            "pagePath": "pages/product/product",
+            "text": "经营范围",
+            "iconPath": "images/pro.png",
+            "selectedIconPath": "images/pro1.png"
+          },
       {
         "pagePath": "pages/aboutus/aboutus",
-        "text": "关于我们",
+        "text": "案例展示",
         "iconPath": "images/reg.png",
         "selectedIconPath": "images/reg1.png"
       },
-      {
-        "pagePath": "pages/product/product",
-        "text": "经营范围",
-        "iconPath": "images/pro.png",
-        "selectedIconPath": "images/pro1.png"
-      },
+
       {
         "pagePath": "pages/contactus/contactus",
         "text": "联系我们",
